@@ -26,7 +26,7 @@ public class Controller {
     //private Model model = new Model();
     
    public Controller(){
-       c = new Calculatrice();
+      /* c = new Calculatrice();
         try {
             c.addOperation("+", new Addition());
             c.addOperation("-", new Soustraction());
@@ -35,8 +35,12 @@ public class Controller {
 
         } catch (ExceptionOperationExistante e) {
             System.out.println("Cette opération existe déjà.");
-        }
+        }*/
     }
+   
+   public Controller(Calculatrice c){
+       this.c=c;
+   }
 
     @FXML
     private void processNumpad(ActionEvent event) {  //lorsqu'on appuie sur le bouton Action Event event prend le chiffre

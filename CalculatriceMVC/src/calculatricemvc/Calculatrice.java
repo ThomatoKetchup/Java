@@ -15,7 +15,7 @@ import java.util.HashMap;
  *
  * @author Nguye
  */
-public class Calculatrice {
+public class Calculatrice{
     private Map<String,Operation> operations;
     /*private float v1;
     private float v2;*/

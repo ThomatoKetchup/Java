@@ -10,5 +10,6 @@ package calculatricemvc;
  * @author nguye
  */
 public interface IModel {
-    
+    public Calculatrice init();
+
 }
